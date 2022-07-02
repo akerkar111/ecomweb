@@ -1,0 +1,103 @@
+.productlist{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // overflow-y:scroll;
+    // scroll-behavior: smooth;
+}
+
+
+.title{
+    margin-top: 2rem;
+}
+
+.hr{
+    margin-bottom: 1rem;
+    width: 5rem;
+    height: 0.3rem;
+    border: none;
+    background-color: rgb(51, 49, 49);
+    border-radius: 50px;
+}
+
+.search-product{
+    width: 20rem;
+    height: 2rem;
+    margin-bottom: 2rem;
+    padding-left: 15px;
+}
+
+
+.productable{
+    border-collapse: collapse;
+    border: 1px solid black;
+
+
+thead{
+    border: 1px solid black;
+
+    tr{
+        border: 1px solid black;
+
+        th,td{
+            padding: 0.2rem 0.8rem;
+            text-align: center;
+            border: 1px solid black;
+        }
+    }
+
+}
+
+tbody{
+    border: 1px solid black;
+
+    tr{
+        border: 1px solid black;
+
+        th,td{
+            padding: 0.4rem 1rem;
+            text-align: center;
+            border: 1px solid black;
+        }
+
+        .delbtn,
+        .updatebtn{
+            margin-right: 0.5rem;
+            padding: 0.2rem 0.5rem;
+        }
+
+        .delbtn{
+            background-color: red;
+            color: #fff;
+            border: none;
+
+            &:hover{
+                cursor: pointer;
+                background-color: rgb(233, 119, 119);
+                border: 0.5px solid black;
+            }
+        }
+
+        .updatebtn{
+            background-color: blue;
+            color: #fff;
+            border: none;
+
+            &:hover{
+                cursor: pointer;
+                background-color: rgb(128, 128, 236);
+                border: 0.5px solid black
+            }
+
+            .updatelink{
+                text-decoration: none;
+                color: #fff;
+            }
+        }
+    }
+
+}
+}

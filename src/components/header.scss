@@ -1,0 +1,36 @@
+.header{
+    height: auto;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    background-color: #111;
+    box-shadow: 1px 2px 20px black;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .nav-items{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    li{
+        list-style-type: none;
+        margin: 1rem;
+        font-size: 1rem;
+
+        a{
+            color: #fff;
+            text-decoration: none;
+            padding: 0.2rem;
+        
+
+        &:hover{
+            // font-size: 1.2rem;
+            font-weight: 800;
+            color: rgb(21, 148, 199);
+        }
+    }
+    }
+}
